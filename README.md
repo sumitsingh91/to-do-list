@@ -72,7 +72,4 @@ class ToDoListApp:
         except IndexError:
             messagebox.showwarning("Warning", "Please select a task to mark as completed.")
 
-if _name_ == "_main_":
-    root = tk.Tk()
-    app = ToDoListApp(root)
-    root.mainloop()
+
